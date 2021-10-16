@@ -44,6 +44,7 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
               const AnimatedImage(),
+              /* *ggggggggggggggggggggggggggg */
               SizedBox(
                 height: 50,
                 width: 150,
