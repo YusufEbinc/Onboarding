@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_my_widget/home_page.dart';
+import 'package:flutter_my_widget/views/screens/onboarding.dart';
 
 void main() => runApp(const MyApp());
 
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ),
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+      home: const OnboardingPage(),
     );
   }
 }
